@@ -246,6 +246,7 @@ class EditTextWidgetState extends State<EditTextWidget>
                   .clamp(0, screenHeight)),
           child: Center(
             child: TextField(
+              keyboardType: TextInputType.visiblePassword,
               decoration: const InputDecoration(
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.zero,
